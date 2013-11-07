@@ -1,4 +1,8 @@
 TestApp::Application.routes.draw do
+  get "web2/hello"
+  get "web2/world"
+  get "web1/hello"
+  get "web1/world"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
